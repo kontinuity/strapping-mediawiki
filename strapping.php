@@ -23,10 +23,13 @@ $wgExtensionMessagesFiles['SkinStrapping'] = dirname(__FILE__).'/Strapping.i18n.
  
 $wgResourceModules['skins.strapping'] = array(
         'styles' => array(
-                'strapping/bootstrap/css/bootstrap.css' => array( 'media' => 'screen' ),
+                '//fonts.googleapis.com/css?family=Roboto:400,300,700' => array( 'media' => 'screen' ),
+                'strapping/bootstrap/css/bootplus.css' => array( 'media' => 'screen' ),
+                'strapping/theme.css' => array( 'media' => 'screen' ),
+                'strapping/bootstrap/css/bootplus-responsive.css' => array( 'media' => 'screen' ),
                 'strapping/bootstrap/awesome/css/font-awesome.css' => array( 'media' => 'screen' ),
                 'strapping/screen.css' => array( 'media' => 'screen' ),
-                'strapping/theme.css' => array( 'media' => 'screen' ),
+                
 	),
 	'scripts' => array(
 		'strapping/bootstrap/js/bootstrap.js',
